@@ -1,0 +1,25 @@
+# 依赖与构建产物
+node_modules/
+lib/
+out/
+cache/
+artifacts/
+broadcast/
+typechain-types/
+
+# 环境与密钥：永远不要提交
+.env
+.env.*
+*.pem
+*.key
+keystore/
+secrets.json
+
+# 日志与本地文件
+*.log
+anvil.log
+.DS_Store
+Thumbs.db
+
+# 打包产物
+*.zip
